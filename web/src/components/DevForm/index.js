@@ -9,7 +9,7 @@ function DevForm({ onSubmit }) {
     useEffect(() => {
         navigator.geolocation.getCurrentPosition(
             (position) => {
-                const { latitude, longitude } = position.coords;
+                const { longitude, latitude } = position.coords;
 
                 setLatitude(latitude);
                 setLongitude(longitude);

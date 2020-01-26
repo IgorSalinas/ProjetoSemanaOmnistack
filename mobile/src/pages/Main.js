@@ -68,8 +68,8 @@ function Main({ navigation }) {
                     <Marker
                         key={dev._id}
                         coordinate={{
-                            latitude: dev.location.coordinates[0],
-                            longitude: dev.location.coordinates[1],
+                            latitude: dev.location.coordinates[1],
+                            longitude: dev.location.coordinates[0],
                         }}
                     >
                         <Image
